@@ -1,0 +1,11 @@
+---
+title: "mODa13"
+description: |
+  <b>Registration</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Details about registration will be circulated via email.

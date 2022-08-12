@@ -1,0 +1,48 @@
+---
+title: "mODa13"
+description: |
+  <b>Organisation</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**mODa13 organising committee**
+
+ - [Dave Woods](https://statsdavew.github.io) (local organiser)
+ - [Radoslav Harman](http://www.iam.fmph.uniba.sk/ospm/Harman/index.htm) (local organiser of mODa12)
+ - [Martina Vanderbroek](https://www.kuleuven.be/wieiswie/en/person/00004359) (local organiser of mODa14)
+ - [Peter Goos](https://www.kuleuven.be/wieiswie/en/person/00006560) (local organiser of mODa14)
+ 
+ **mODa13 local organising committee**
+ 
+  - [Antony Overstall](http://www.personal.soton.ac.uk/amo105/)
+  - [Selin Ahipasaoglu](https://www.southampton.ac.uk/people/5y9p9p/doctor-selin-ahipasaoglu)
+  - [Dasha Semochkina](https://www.southampton.ac.uk/people/5xrjcp/doctor-dasha-semochkina)
+  - Ziyan Wang
+  - Hendriico Merila
+  
+**mODa board**
+  
+ - [Holger Dette](https://www.ruhr-uni-bochum.de/mathematik3/en/dette.html)
+ - [Peter Goos](https://www.kuleuven.be/wieiswie/en/person/00006560) 
+ - [Radoslav Harman](http://www.iam.fmph.uniba.sk/ospm/Harman/)
+ - [Jesús López Fidalgo](https://lopezfidalgosite.wordpress.com)
+ - [Tobias Mielke](https://www.linkedin.com/in/tobias-mielke-44173072/)
+ - [Christine Müller](https://www.statistik.tu-dortmund.de/mueller1.html)
+ - [Werner Müller](https://www.jku.at/institut-fuer-angewandte-statistik/ueber-uns/team/univ-prof-mag-dr-werner-g-mueller/)
+ - [Luc Pronzato](https://www.i3s.unice.fr/~pronzato/node/1)
+ - [Chiara Tommasi](https://www.unimi.it/en/ugov/person/chiara-tommasi)
+ - [Dariusz Uciński](http://staff.uz.zgora.pl/ducinski/viewpage.php?page_id=12)
+ - [Martina Vanderbroek](https://www.kuleuven.be/wieiswie/en/person/00004359)
+ - [Dave Woods](https://statsdavew.github.io)
+ - [Henry Wynn](https://www.lse.ac.uk/CATS/People/Henry-Wynn-homepage)
+ - [Anatoly Zhigljavsky](https://www.cardiff.ac.uk/people/view/98671-zhigljavsky-anatoly)
+ 
+**Honorary lifetime invitees**
+
+ - [Anthony Atkinson](https://www.lse.ac.uk/Statistics/People/Professor-Anthony-Atkinson)
+ - [Valerii Fedorov](https://www.linkedin.com/in/valerii-v-fedorov/)
+ - [Andrej Pázman](http://www.iam.fmph.uniba.sk/ospm/Pazman/)
+ - [Ben Torsney](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/bernardtorsney/)

@@ -1,0 +1,24 @@
+---
+title: "mODa13"
+description: |
+  <b>History</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**Past mODa workshops:**
+
+ - mODa 1: Eisenach, former GDR, 1987
+ - mODa 2: St. Kyrik, Bulgaria, 1990
+ - mODa 3: Peterhof, Russia, 1992
+ - mODa 4: Spetses, Greece, 1995
+ - mODa 5: Luminy, France, 1998
+ - [mODa 6: Puchberg/Schneeberg, Austria, 2001](https://statmath.wu.ac.at/moda6/moda6.html)
+ - mODa 7: Heeze, The Netherlands, 2004
+ - mODa 8: Almagro, Spain, 2007
+ - mODa 9: Bertinoro, Italy, 2010
+ - [mODa 10: Łagów Lubuski, Poland, 2013](http://www.moda10.uz.zgora.pl)
+ - [mODa 11: Hamminkeln-Dingden, Germany, 2016](https://www.statistik.tu-dortmund.de/mODa11/)
+ - [mODa 12: Smolenice, Solvakia, 2019](http://www.iam.fmph.uniba.sk/moda12)

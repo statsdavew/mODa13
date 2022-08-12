@@ -1,0 +1,24 @@
+name: "mODa13"
+title: "mODa13"
+output_dir: "docs"
+theme: mODa.css
+navbar:
+  logo:
+    image: images/moda13.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Organisation"
+      href: organisation.html
+    - text: "Registration"
+      href: registration.html
+    - text: "Location"
+      href: location.html
+    - text: "Proceedings"
+      href: proceedings.html
+    - text: "Timetable"
+      href: timetable.html
+    - text: "History"
+      href: history.html
+ 
+output: distill::distill_article

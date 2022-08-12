@@ -1,0 +1,11 @@
+---
+title: "mODa13"
+description: |
+  <b>Proceedings</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Workshop participants are encouraged to submit research based on their presentations for publication in the mODa proceedings, a special issue of [Statistical Papers](https://www.springer.com/journal/362). When submitting to the journal, please select article type as "S.I. : MODA13".

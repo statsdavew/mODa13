@@ -1,0 +1,23 @@
+---
+title: "mODa13"
+description: |
+  <b>Timetable</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**Workshop:**
+
+ - Pre-registration: March 2023 (participants will be contacted by email)
+ - Workshop fee payment and abstract submission: 29 April
+ - mODa13: 9-15 July 2023
+
+**Special issue:**
+
+ - Full paper submission deadline: 31 December 2022
+ - Deadline for first reviews: 31 January 2023
+ - Acceptance notification: 14 March 2023
+ - Camera-ready versions: 28 March 2023
+
