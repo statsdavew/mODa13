@@ -86,10 +86,7 @@ d-appendix {
 }
 
 
-.distill-site-header .title {
-position: relative;
-transform: translateY(-70%);
-}
+
 
 .distill-site-header .nav-right {
     top: 25%;
