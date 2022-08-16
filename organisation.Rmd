@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
  - [Dave Woods](https://statsdavew.github.io) (local organiser)
  - [Radoslav Harman](http://www.iam.fmph.uniba.sk/ospm/Harman/index.htm) (local organiser of mODa12)
- - [Martina Vanderbroek](https://www.kuleuven.be/wieiswie/en/person/00004359) (local organiser of mODa14)
+ - [Martina Vandebroek](https://www.kuleuven.be/wieiswie/en/person/00004359) (local organiser of mODa14)
  - [Peter Goos](https://www.kuleuven.be/wieiswie/en/person/00006560) (local organiser of mODa14)
  
  **mODa13 local organising committee**
@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE)
  - [Luc Pronzato](https://www.i3s.unice.fr/~pronzato/node/1)
  - [Chiara Tommasi](https://www.unimi.it/en/ugov/person/chiara-tommasi)
  - [Dariusz Uciński](http://staff.uz.zgora.pl/ducinski/viewpage.php?page_id=12)
- - [Martina Vanderbroek](https://www.kuleuven.be/wieiswie/en/person/00004359)
+ - [Martina Vandebroek](https://www.kuleuven.be/wieiswie/en/person/00004359)
  - [Dave Woods](https://statsdavew.github.io)
  - [Henry Wynn](https://www.lse.ac.uk/CATS/People/Henry-Wynn-homepage)
  - [Anatoly Zhigljavsky](https://www.cardiff.ac.uk/people/view/98671-zhigljavsky-anatoly)
