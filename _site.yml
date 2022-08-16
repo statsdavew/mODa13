@@ -5,6 +5,7 @@ theme: mODa.css
 navbar:
   logo:
     image: images/moda13.png
+    href: index.html
   right:
     - text: "Home"
       href: index.html

@@ -1,7 +1,5 @@
 ---
 title: "mODa13"
-description: |
-  Model-Oriented Data Analysis and Optimum Design
 site: distill::distill_website
 ---
 
@@ -15,6 +13,11 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/publish_website.html#github-pages
 
 ```
+
+```{r mODa-logo, out.width = "50%", fig.align = "center"}
+knitr::include_graphics("images/moda13.png")
+```
+
 
 The scientific workshops on model-oriented data analysis and optimum design (mODa) provide a high-level international forum for researchers, professionals and practitioners to present and discuss recent advances, new techniques and applications in the field of optimum experimental design. In addition, a primary aim is to provide young researchers an opportunity to establish personal contacts with leading specialists in the field. Its specificity is that the participation is by invitation of the board only. 
 
