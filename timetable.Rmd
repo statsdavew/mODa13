@@ -18,6 +18,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
  - Full paper submission deadline: 31 December 2022
  - Deadline for first reviews: 31 January 2023
- - Acceptance notification: 14 March 2023
- - Camera-ready versions: 28 March 2023
+ - Acceptance notification: 10 March 2023
+ - Camera-ready versions: 17 March 2023
 
