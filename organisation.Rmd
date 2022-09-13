@@ -17,13 +17,14 @@ knitr::opts_chunk$set(echo = FALSE)
  
  **mODa13 local organising committee**
  
-  - [Antony Overstall](http://www.personal.soton.ac.uk/amo105/)
   - [Selin Ahipasaoglu](https://www.southampton.ac.uk/people/5y9p9p/doctor-selin-ahipasaoglu)
   - [Vasiliki Koutra](https://www.kcl.ac.uk/people/vasiliki-koutra)
+<!--  
   - [Dasha Semochkina](https://www.southampton.ac.uk/people/5xrjcp/doctor-dasha-semochkina)
   - Ziyan Wang
   - Hendriico Merila
-  
+-->
+
 **mODa board**
   
  - [Holger Dette](https://www.ruhr-uni-bochum.de/mathematik3/en/dette.html)
