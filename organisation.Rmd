@@ -19,11 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
  
   - [Selin Ahipasaoglu](https://www.southampton.ac.uk/people/5y9p9p/doctor-selin-ahipasaoglu)
   - [Vasiliki Koutra](https://www.kcl.ac.uk/people/vasiliki-koutra)
-<!--  
-  - [Dasha Semochkina](https://www.southampton.ac.uk/people/5xrjcp/doctor-dasha-semochkina)
-  - Ziyan Wang
-  - Hendriico Merila
--->
+
 
 **mODa board**
   
