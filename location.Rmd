@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The 13th mODa workshop will be hosted by the [Southampton Statistical Sciences Research Institute (S3RI)](http://www.soton.ac.uk/s3ri) at the [University of Southampton](http://www.soton.ac.uk) [Avenue Campus](https://www.southampton.ac.uk/student-life/campuses/avenue).
+The 13th mODa workshop will be hosted by the [Southampton Statistical Sciences Research Institute (S3RI)](http://www.soton.ac.uk/s3ri) at the [University of Southampton](http://www.soton.ac.uk) [Highfield Campus](https://www.southampton.ac.uk/student-life/campuses/highfield).
 
 ```{r soton-crest, out.width = "50%", fig.align = "center"}
 knitr::include_graphics("images/soton_crest.jpeg")
