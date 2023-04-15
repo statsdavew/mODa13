@@ -2432,6 +2432,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+  <script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+  <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+  <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+  <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+  <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+  <script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+  <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+  <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+  <script src="site_libs/leaflet-binding-2.1.2/leaflet.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2489,13 +2498,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>The 13th mODa workshop will be hosted by the <a href="http://www.soton.ac.uk/s3ri">Southampton Statistical Sciences Research Institute (S3RI)</a> at the <a href="http://www.soton.ac.uk">University of Southampton</a> <a href="https://www.southampton.ac.uk/student-life/campuses/avenue">Avenue Campus</a>.</p>
+<p>The 13th mODa workshop will be hosted by the <a href="http://www.soton.ac.uk/s3ri">Southampton Statistical Sciences Research Institute (S3RI)</a> at the <a href="http://www.soton.ac.uk">University of Southampton</a> <a href="https://www.southampton.ac.uk/student-life/campuses/highfield">Highfield Campus</a>.</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="images/soton_crest.jpeg" width="50%" style="display: block; margin: auto;" /></p>
 </div>
 <p>There has been an institution of higher education (the Hartley Institute) in Southampton <a href="https://www.southampton.ac.uk/about/reputation/history-timeline.page">since 1862</a>, with a University College at the main Highfield Campus since 1919. The University gained it’s Royal Charter in 1952. S3RI was formed in 2003 to synergise the research of statisticians across the Mathematical, Social and Health Science, and Medicine. It will be celebrating its 20th anniversary when mODa13 is held.</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1495.2445619100063!2d-1.4020710093918929!3d50.9294258367944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487474064491597b%3A0x7a832ae220279363!2sAvenue%20Campus!5e0!3m2!1sen!2suk!4v1660332969366!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+<div class="layout-chunk" data-layout="l-body">
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d5377b804a0d3032d4a8" style="width:624px;height:384px;"></div>
+<script type="application/json" data-for="htmlwidget-d5377b804a0d3032d4a8">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[50.9368557718911,-1.3976215115886,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,"Building 100 (Centenary Building)",{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[50.9368557718911,-1.3976215115886],17,[]],"limits":{"lat":[50.9368557718911,50.9368557718911],"lng":[-1.3976215115886,-1.3976215115886]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<!--
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1495.2445619100063!2d-1.4020710093918929!3d50.9294258367944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487474064491597b%3A0x7a832ae220279363!2sAvenue%20Campus!5e0!3m2!1sen!2suk!4v1660332969366!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+-->
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
