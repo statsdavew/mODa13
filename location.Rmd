@@ -14,7 +14,9 @@ The 13th mODa workshop will be hosted by the [Southampton Statistical Sciences R
 knitr::include_graphics("images/soton_crest.jpeg")
 ```
 
-There has been an institution of higher education (the Hartley Institute) in Southampton [since 1862](https://www.southampton.ac.uk/about/reputation/history-timeline.page), with a University College at the main Highfield Campus since 1919. The University gained it's Royal Charter in 1952. S3RI was formed in 2003 to synergise the research of statisticians across the Mathematical, Social and Health Science, and Medicine. It will be celebrating its 20th anniversary when mODa13 is held.  
+There has been an institution of higher education (the Hartley Institute) in Southampton [since 1862](https://www.southampton.ac.uk/about/reputation/history-timeline.page), with a University College at the main Highfield Campus since 1919. The University gained it's Royal Charter in 1952. S3RI was formed in 2003 to synergise the research of statisticians across the Mathematical, Social and Health Sciences, and Medicine. It will be celebrating its 20th anniversary when mODa13 is held.
+
+The scientific sessions of mODa will be held in Building 100 (the Centenary Building), opened in 2019 to celebrate 100 years of higher education on the Highfield Campus. Accommodation will be in Chamberlain Halls.   
 
 ```{r, fig.align = 'center'}
 #| column: screen
@@ -22,14 +24,20 @@ library(leaflet)
 leaflet() %>%
   addTiles() %>%
   setView(
-    lat= 50.9368557718911,  
-    lng= -1.3976215115885986,
-    zoom = 17) %>%
+    lat= 50.93905529496468,  
+    lng= -1.3983952680035892,
+    zoom = 15) %>%
   addMarkers(
     lat= 50.9368557718911,  
     lng= -1.3976215115885986,
     label="Building 100 (Centenary Building)"
-  ) 
+  ) %>%
+  addMarkers(
+    lat = 50.94206924695994, 
+    lng = -1.402863385116312,
+    label = "Chamberlain Halls"
+  )
+
 ```
 
 <!--

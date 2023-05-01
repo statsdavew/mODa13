@@ -1,0 +1,59 @@
+---
+title: "mODa13"
+description: |
+  <b>Programme</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+An outline schedule for the workshop is given below. More details will be available soon.
+
+The workshop will start with registration and a welcome reception/buffet on **Sunday evening** (9 July; 18.00 - 20.00).
+
+```{r}
+library(readr)
+library(dplyr)
+library(gt)
+library(tidyr)
+library(stringr)
+
+prelim_data <- read_csv("../timetable/prelim_schedule.csv", show_col_types = FALSE)
+prelim_data |> 
+  pivot_wider(names_from = Day, values_from = Session) |>
+  mutate(across(1:6, \(x) str_replace_all(x, pattern = "Coffee break", replacement = "Coffee"))) |>
+  mutate(across(1:6, \(x) str_replace_all(x, pattern = "Tea break", replacement = "Tea"))) |>
+  gt() |>
+  tab_header(
+    title = "Preliminary schedule",
+  ) |>
+  sub_missing(missing_text = '') |>
+  opt_row_striping() |>
+    tab_options(
+      table.width = pct(100)
+    ) |>
+    cols_label(
+      Time = ""
+    ) |>
+  tab_style(
+    style = cell_text(
+      weight = "bold"
+    ),
+    location = cells_column_labels(columns = everything())
+  ) |>
+  cols_align(
+    columns = Time,
+    align = "left"
+  ) |>
+  tab_style(
+    # Select object to modify
+    locations = cells_title(groups = 'title'),
+    # Specify text style
+    style = list(
+      cell_text(
+        font=google_font(name = 'Bebas Neue'), 
+        size='xx-large',
+        color='darkblue'
+  )))
+```

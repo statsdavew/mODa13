@@ -1,0 +1,24 @@
+---
+title: "mODa13"
+description: |
+  <b>Travel</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Participants should travel to [Chamberlain Hall](https://www.southampton.ac.uk/community/chamberlain.page) for accomodation check-in and, on Sunday evening (9 July), workshop registration and the welcome reception.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.2273228174113!2d-1.3983859809224368!3d50.94255201958179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48747474cd9a7af5%3A0xa8cb078dd4e299bd!2sChamberlain%20Halls!5e0!3m2!1sen!2suk!4v1682970389984!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Train**
+
+The closest station is [Southampton Airport Parkway](https://www.nationalrail.co.uk/stations/soa/) which is on the mainline from London. If you are arriving via Gatwick, there are services instead into [Southampton Central](https://www.nationalrail.co.uk/stations/sou/). From either station, you can get the [U1](https://www.unilinkbus.co.uk/services/UNIL/U1A) bus to Highfield Campus (U1C from Parkway, U1A from Central), which is a short walk to Chamberlain Hall. From Southampton Central, you can get the [U2B](https://www.unilinkbus.co.uk/services/UNIL/U2B) bus direct to Chamberlain. Taxis are also available from both stations (there tend to be more at Central).
+
+**Airports**
+
+From [London Heathrow](https://www.heathrow.com), the most convenient connection to Southampton is via the [National Express](https://www.nationalexpress.com/en) Coach. Direct coaches take about two hours and stop on [Burgess Road next to Highfield Campus](https://goo.gl/maps/3pttJd4nZoBQQfbv5). From [London Gatwick](https://www.gatwickairport.com), there are [Southern Railway](https://www.southernrailway.com) services to Southampton Central (see above). Please be aware that engineering work quite often takes places on a Sunday and may disrupt your journey.
+
+[Southampton Airport](https://www.southamptonairport.com) is situated on the edge of the city, and connected to Highfield Campus by the [U1C](https://www.unilinkbus.co.uk/services/UNIL/U1C) bus. It has flights from many major UK cities, Amsterdam and Paris.
+

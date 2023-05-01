@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 **Workshop:**
 
  - Pre-registration: March 2023 (participants will be contacted by email)
- - Workshop fee payment and abstract submission: 29 April
+ - Workshop fee payment and abstract submission: 30 May
  - mODa13: 9-14 July 2023
 
 **Special issue:**
