@@ -54,6 +54,6 @@ prelim_data |>
       cell_text(
         font=google_font(name = 'Bebas Neue'), 
         size='xx-large',
-        color='darkblue'
+        color='#005C84'
   )))
 ```
