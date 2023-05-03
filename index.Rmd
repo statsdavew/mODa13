@@ -24,3 +24,9 @@ The scientific workshops on model-oriented data analysis and optimum design (mOD
 <!-- For details, see mODa charter (pdf). -->
 
 mODa is (generally) organized every three years, with the previous mODa12 held in Smolenice, Slovakia. After a short Covid-induced delay, the 13th edition of the workshop series will be held in Southampton, UK, 9-14 July 2023.
+
+**Supported by:**
+
+```{r, echo = FALSE, out.width = "40%",fig.show = 'hold', fig.align = 'center', fig.cap = ""}
+knitr::include_graphics(c("images/ICMS.png", "images/soton_logo.jpeg", "images/jmp.png", "images/janssen.png"))
+``` 
