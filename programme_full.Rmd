@@ -1,0 +1,387 @@
+---
+title: "mODa programme"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: yeti
+align: right
+---
+
+<style>                     
+.navbar {
+  background-color:#005C84;
+}
+</style>  
+
+```{r, include = F}
+knitr::opts_chunk$set(echo = FALSE)
+library(flexdashboard)
+library(here)
+library(readr)
+library(dplyr)
+library(gt)
+library(stringr)
+library(purrr)
+library(DT)
+```
+
+```{r}
+## read main data sheet
+main_data <- read_csv(here("../data", "registration_abstract.csv"), show_col_types = FALSE)
+
+## monday
+monday <- read_csv(here("../data", "monday.csv"), show_col_types = FALSE)
+## tuesday
+tuesday <- read_csv(here("../data", "tuesday.csv"), show_col_types = FALSE)
+## wednesday
+wednesday <- read_csv(here("../data", "wednesday.csv"), show_col_types = FALSE)
+## thursday
+thursday <- read_csv(here("../data", "thursday.csv"), show_col_types = FALSE)
+## friday
+friday <- read_csv(here("../data", "friday.csv"), show_col_types = FALSE)
+```
+
+```{r}
+programme_mutate <- function(x, multiple = "first") {
+  x |> 
+    left_join(
+      main_data |>
+      select(name, affiliation, title), 
+    by = "name", multiple = multiple) |>
+  mutate(title = case_when(
+    session == "Industrial panel" ~ "",
+    .default = title
+  ))|>
+  mutate(chair_aff = map_chr(chair, 
+                             \(x) main_data$affiliation[match(x, main_data$name)])
+         ) |>
+  mutate(chair = case_when(
+      session == "poster" ~ "",
+    is.na(chair_aff) ~ paste0("(Chair: ", chair, ")"),
+    .default = str_c(paste0("(Chair: ", chair), paste0(chair_aff, ")"), sep = ", ")
+  )
+  ) |>
+  mutate(speaker = if_else(is.na(affiliation), 
+                         name, 
+                         str_c(name, paste0("(", affiliation, ")"), sep = " ")
+                         )
+         ) |>
+  mutate(time = map_chr(time, 
+                        \(x) str_sub(x, 1, 5)
+                        )
+  ) |>
+  mutate(session = str_c(time, session, chair, sep = " ")
+         ) |>
+  select(-chair_aff, -name, -affiliation, -time, -chair) |>
+  mutate(title = case_when(
+    speaker == "Anatoly Zhigljavsky (University of Cardiff)" ~ "OLSE And BLUE For The Location Model And Energy Minimization",
+    speaker == "Alan Vazquez (University of Arkansas)" ~ "Constructing Large OMARS Designs By Concatenating Definitive Screening Designs",
+    speaker == "Matthew Hutchings (University of Cardiff)" ~ "Energy-Based Sampling For PSD-Matrix Approximation",
+    .default = str_to_title(title)
+  ))
+}
+
+tab_format <- function(x) {
+  x |> 
+    fmt_markdown(columns = title) |>
+  sub_missing(
+    columns = everything(),
+    missing_text = "TBA"
+  ) |>
+  tab_style(
+    style = list(
+      cell_text(weight = "bold"),
+      cell_fill(color = '#005C84'),
+      cell_text(color = "white", 
+                font = google_font(name = 'Bebas Neue'),
+                size = "x-large")
+    ),
+    locations = cells_row_groups()
+  ) |>
+  tab_options(
+    column_labels.hidden = TRUE
+  ) |>
+  tab_style(
+    # Select object to modify
+    locations = cells_title(groups = 'title'),
+    # Specify text style
+    style = list(
+      cell_text(
+        font=google_font(name = 'Bebas Neue'), 
+        size='xxx-large',
+        color='#005C84'
+        )
+      )
+    ) |> 
+  # Vertical align cells ----
+  tab_style(
+    style = "vertical-align:top",
+    locations = cells_body(
+      columns = everything()
+    )
+  )
+}
+```
+
+Monday
+============================================================
+
+```{r}
+programme_mutate(monday) |>
+  add_row(session = "08:50 Welcome", 
+          title = "", 
+          speaker = "Dave Woods (University of Southampton)",
+          .before = 1
+          ) |>
+  add_row(session = "09:00 Discrete choice experiments (Chair: Martina Vandebroek, KU Leuven)",
+          title = "",
+          speaker = "",
+          .after = 5) |>
+  add_row(session = "10:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 5) |>
+  add_row(session = "11:00 Computational challenges in experimental design (Chair: Radoslav Harman, Comenius University Bratislava)",
+          title = "",
+          speaker = "",
+          .after =11) |>
+  add_row(session = "12:30 Lunch break",
+          title = "",
+          speaker = "",
+          .after = 11) |>
+    add_row(session = "14:00 Subsampling, dynamic and non-linear models (Chair: TBA)",
+          title = "",
+          speaker = "",
+          .after = 17) |>
+   add_row(session = "15:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 17) |>
+   add_row(session = "16:00 Clinical trials I (Chair: Chiara Tommasi, Università degli Studi di Milano)",
+          title = "",
+          speaker = ""
+          ) |>
+  add_row(session = "17:30 mODa 14",
+          title = "",
+          speaker = "Martina Vandebroek & Peter Goos") |>
+  gt(
+    groupname_col = "session",
+    ) |>
+  tab_format() |>
+  tab_header(
+    title = "Monday",
+    subtitle = "10 July 2023"
+  )
+  
+```
+  
+Tuesday
+============================================================
+
+```{r}
+programme_mutate(tuesday, "last") |>
+  add_row(session = "09:00 TBA (Chair: TBA)",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "10:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "11:00 Optimal Sensor Location for Spatiotemporal Processes and Networks (Chair: TBA)",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+  add_row(session = "12:30 Lunch break",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+    add_row(session = "14:00 Posters (Chair: NA)",
+          title = "",
+          speaker = "",
+          .after = 26) |>
+   add_row(session = "15:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 26) |>
+  gt(
+    groupname_col = "session",
+    ) |>
+  tab_format() |>
+  tab_header(
+    title = "Tuesday",
+    subtitle = "11 July 2023"
+  ) 
+  
+```  
+  
+  
+Wednesday
+============================================================
+
+```{r}
+programme_mutate(wednesday) |>
+  add_row(session = "09:00 Othogonal minimally aliased response surface and order-of-addition designs (Chair: Peter Goos, KU Leuven)",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "10:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "11:00 Active learning (Chair: Jesús López-Fidalgo, Universidad de Navarra)",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+  add_row(session = "12:30 Lunch break (packed lunch)",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+    add_row(session = "13:30 Excursion to Winchester",
+          title = "",
+          speaker = "",
+          .after = 11) |>
+  gt(
+    groupname_col = "session",
+    ) |>
+  tab_format() |>
+  tab_header(
+    title = "Wednesday",
+    subtitle = "12 July 2023"
+  ) 
+  
+```  
+
+Thursday
+============================================================
+
+```{r}
+programme_mutate(thursday) |>
+  add_row(session = "09:00 Optimal subsampling (Chair: TBA)",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "10:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "11:00 Design for machine learning and prediction (Chair: TBA)",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+  add_row(session = "12:30 Lunch break",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+    add_row(session = "14:00 Clinical Trials II (Chair: TBA)",
+          title = "",
+          speaker = "",
+          .after = 16) |>
+   add_row(session = "15:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 16) |>
+   add_row(session = "16:00 Industrial panel (Chair: Tobias Mielke, Janssen)",
+          title = "",
+          speaker = ""
+          ) |>
+  add_row(session = "19:30 workshop reception and dinner",
+          title = "",
+          speaker = "") |>
+  gt(
+    groupname_col = "session",
+    ) |>
+  tab_format() |>
+  tab_header(
+    title = "Thursday",
+    subtitle = "13 July 2023"
+  )
+  
+```
+
+Friday
+============================================================
+  
+```{r}
+programme_mutate(friday) |>
+  add_row(session = "09:00 TBA (Chair: TBA)",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "10:30 Coffee break",
+          title = "",
+          speaker = "",
+          .after = 4) |>
+  add_row(session = "11:00 Optimal designs for model discrimination (Chair: Werner Müller, Johannes Kepler Universität Linz)",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+  add_row(session = "12:30 Lunch break",
+          title = "",
+          speaker = "",
+          .after = 10) |>
+    add_row(session = "14:00 Workshop closes",
+          title = "",
+          speaker = "",
+          .after = 11) |>
+  gt(
+    groupname_col = "session",
+    ) |>
+  tab_format() |>
+  tab_header(
+    title = "Friday",
+    subtitle = "14 July 2023"
+  ) 
+  
+```    
+  
+Abstracts
+============================================================
+
+```{r}
+main_data |> 
+  select(name, affiliation, title, abstract) |>
+  filter(!is.na(title)) |>
+  mutate(title = case_when(
+    name == "Anatoly Zhigljavsky" ~ "OLSE And BLUE For The Location Model And Energy Minimization",
+    name == "Alan Vazquez" ~ "Constructing Large OMARS Designs By Concatenating Definitive Screening Designs",
+    name == "Matthew Hutchings" ~ "Energy-Based Sampling For PSD-Matrix Approximation",
+    .default = str_to_title(title)
+  )) |>
+  gt() |>
+  # change col widths
+    fmt_markdown(columns = everything()) |>
+  cols_label(
+    name = md("**Speaker**"),
+    affiliation = md("**Affiliation**"),
+    title = md("**Title**"),
+    abstract = md("**Abstract**")
+  ) |>
+  sub_missing(
+    columns = everything(),
+    missing_text = ""
+  ) |>
+   cols_width(title ~ px(450)) 
+
+# |>
+#  opt_interactive(
+#    use_search = TRUE,
+#    use_resizers = TRUE,
+#    use_highlight = TRUE,
+#    use_filters = TRUE,
+#    page_size_default = 25,
+#  )
+  
+  
+#datatable(options = list(pageLength = 25), 
+#            rowname = FALSE,
+#            colnames = c("Speaker", "Affiliation", "Title", "Abstract"), escape = FALSE) |>
+#  formatStyle(c(1:4), 'vertical-align' = 'top')
+  
+```
+
+```{css}
+    .chart-shim {
+      overflow: auto;
+    }
+```           
+  
