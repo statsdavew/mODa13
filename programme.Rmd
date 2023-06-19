@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-An outline schedule for the workshop is given below. More details will be available soon.
+An outline schedule for the workshop is given below. A full draft programme is available [here](static/programme.html).
 
 The workshop will start with registration and a welcome reception/buffet on **Sunday evening** (9 July; 18.00 - 20.00).
 
@@ -26,7 +26,7 @@ prelim_data |>
   mutate(across(1:6, \(x) str_replace_all(x, pattern = "Tea break", replacement = "Tea"))) |>
   gt() |>
   tab_header(
-    title = "Preliminary schedule",
+    title = "Outline schedule",
   ) |>
   sub_missing(missing_text = '') |>
   opt_row_striping() |>
