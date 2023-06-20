@@ -12,6 +12,10 @@ An outline schedule for the workshop is given below. A full draft programme is a
 
 The workshop will start with registration and a welcome reception/buffet on **Sunday evening** (9 July; 18.00 - 20.00).
 
+**Talks** all have 22.5 minute slots, and should be prepared to leave a little time for questions.
+
+**Posters** will be displayed on Tuesday 11 July, and should be put up before the start of the workshop that day and taken down at the end of the day. They will be displyed on boards which are 1200mm x 1200mm in size.
+
 ```{r}
 library(readr)
 library(dplyr)
