@@ -8,9 +8,9 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-An outline schedule for the workshop is given below. A full draft programme is available [here](static/programme.html).
+An outline schedule for the workshop is given below. **A full programme is available [here](static/programme.html)**.
 
-The workshop will start with registration and a welcome reception/buffet on **Sunday evening** (9 July; 18.00 - 20.00).
+The workshop will start with registration and a welcome reception/bbq on **Sunday evening (9 July; 18.00 - 20.00 in the common room/quad (B block) in Chamberlain Hall)**.
 
 **Talks** all have 22.5 minute slots, and should be prepared to leave a little time for questions.
 
@@ -25,6 +25,10 @@ library(stringr)
 
 prelim_data <- read_csv("../timetable/prelim_schedule.csv", show_col_types = FALSE)
 prelim_data |> 
+  mutate(Session = case_when(
+    Session ==  "BBQ (18.00 - 20.00; Chamberlain Hall)" ~ "BBQ (18.00 - 20.00; Chamberlain Hall)",
+    .default = str_to_title(Session)
+    )) |>
   pivot_wider(names_from = Day, values_from = Session) |>
   mutate(across(1:6, \(x) str_replace_all(x, pattern = "Coffee break", replacement = "Coffee"))) |>
   mutate(across(1:6, \(x) str_replace_all(x, pattern = "Tea break", replacement = "Tea"))) |>

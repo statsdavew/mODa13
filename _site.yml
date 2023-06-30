@@ -17,6 +17,8 @@ navbar:
       href: location.html
     - text: "Travel"
       href: travel.html
+    - text: "Local arrangements"
+      href: local.html
     - text: "Proceedings"
       href: proceedings.html
 #    - text: "Timetable"

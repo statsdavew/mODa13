@@ -1,0 +1,77 @@
+---
+title: "mODa13"
+description: |
+  <b>Local arrangements</b>
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Accomodation
+
+Accomodation for the workshop is in single ensuite rooms in [Chamberlain Hall](https://www.southampton.ac.uk/community/building-projects/salisbury-road.page). 
+
+```{r, echo = FALSE, out.width = "100%",fig.show = 'hold', fig.align = 'center', fig.cap = ""}
+knitr::include_graphics(c("images/chamberlain.jpeg"))
+``` 
+
+**Check-in on Sunday 9 July:** if you arrive between 15.00 and 19.00, you can pick up your room key from the **Post Room** in the main entrance to Chamberlain Hall (B block).
+
+If you arrive after 19.00 on Sunday, you will need to pick up your key from the **24 hour reception in the Glen Eyre Halls complex** (across the road from Chamberlain, in J block).
+
+```{r, echo = FALSE, out.width = "100%",fig.show = 'hold', fig.align = 'center', fig.cap = ""}
+knitr::include_graphics(c("images/chamberlain-glen_eyre-map.jpg"))
+``` 
+
+**Check-in on other days:** is available from 15.00. Please collect your key from the Glen Eyre reception.
+
+Chamberlain is about a 10 minute walk from the workshop venue, Building 100 on Highfield Campus.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5028.311296642478!2d-1.4048375979347698!3d50.939334486758526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x48747474cd9a7af5%3A0xa8cb078dd4e299bd!2sChamberlain%20Halls%2C%20Glen%20Eyre%20Rd%2C%20Southampton%20SO16%203UD!3m2!1d50.941985599999995!2d-1.4028649!4m5!1s0x487473a091c0b785%3A0x9e42f51821c02d8a!2sCentenary%20Building%20(100)%2C%20University%20Road%2C%20Southampton!3m2!1d50.9367904!2d-1.3976205!5e0!3m2!1sen!2suk!4v1688155083175!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+The [U2](https://www.unilinkbus.co.uk/services/UNIL/U2B?date=2023-07-10&direction=inbound) bus runs between Chamberlain Hall and Highfield Campus, and stops adjacent to Building 100. Out of term (which we very much are), the first bus leaves Chamberlain at 07.25 (perfect for breakfast), then at 08.30 and then every 30 minutes (until 18.00). Returning, the bus is also every 30 minutes, at 20 and 50 minutes past the hour until 17.50. There are then further buses at 18.50 and 19.50 (unfortunately, there isn't a bus after dinner).
+
+The bus journey takes about 15 minutes, due to roadworks currently underway at the junction of Glen Eyre and Burgess Roads.
+
+## Workshop venue
+
+The workshop will be held on Level 4 of [Building 100](https://data.southampton.ac.uk/building/100.html) (the Centenary Building) on [Highfield Campus](https://maps.southampton.ac.uk/). Talks will be held in Lecture Room B (4011), with the Seminar room (4013) used for refreshments and the Tuesday poster display.
+
+Building 100 closes each day at 18.00.
+
+```{r, echo = FALSE, out.width = "100%",fig.show = 'hold', fig.align = 'center', fig.cap = ""}
+knitr::include_graphics(c("images/B100.png"))
+``` 
+
+## Breakfast, lunch and dinner
+
+Please bring your conference badge to all meals.
+
+**Breakfast** will be in the [Piazza](https://catering.southampton.ac.uk/42-piazza) (Building 42, Students Union) between 07.30 and 08.30 each day (for residents only).
+
+**Lunch** will also be in the Piazza between 12.30 and 13.30 each day, with the exception of Wednesday when a packed lunch will be provided for the excursion to Winchester.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2514.363398528866!2d-1.3995893723116526!3d50.93549217168886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x487473a091c0b785%3A0x9e42f51821c02d8a!2sCentenary%20Building%20(100)%2C%20University%20Road%2C%20Southampton!3m2!1d50.9367904!2d-1.3976205!4m5!1s0x487473f6481907b7%3A0x34e8fbcd2f8da535!2sB42%2C%20Southampton!3m2!1d50.934194!2d-1.3974617!5e0!3m2!1sen!2suk!4v1688157677449!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Dinner** will be in the Terrace Restaurant (Building 38) on Monday, Tuesday and Wednesday between 19.30 and 20.15.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2514.3357050303653!2d-1.3995893723116526!3d50.9360043716891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x487473a091c0b785%3A0x9e42f51821c02d8a!2sCentenary%20Building%20(100)%2C%20University%20Road%2C%20Southampton!3m2!1d50.9367904!2d-1.3976205!4m5!1s0x487473f66c447009%3A0x430b87fe545aa286!2sStaff%20Social%20Center(Building%2038)%2C%2045%20University%20Rd%2C%20Southampton%20SO17%201TL!3m2!1d50.935311999999996!2d-1.3973392999999998!5e0!3m2!1sen!2suk!4v1688158031914!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+**Workshop reception and dinner** on Thursday will be held in the Harley Suite (Building 38) between 19.30 and 22.00.
+
+**Welcome reception and BBQ** on Sunday will be held at Chamberlain Hall in the B block common room/quad.
+
+**After dinner** the [Bridge Bar](https://www.susu.org/places/the-bridge) (Building 42 Students Union) will be open each day (Monday - Thursday). Other local pubs include the [Crown Inn](https://www.the-crowninn.co.uk) and the [Brewhouse and Kitchen](https://www.brewhouseandkitchen.com/venue/southampton/).
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5028.5505440010265!2d-1.4081028979350783!3d50.937122086757036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x48747474cd9a7af5%3A0xa8cb078dd4e299bd!2sChamberlain%20Halls%2C%20Glen%20Eyre%20Road%2C%20Southampton!3m2!1d50.941985599999995!2d-1.4028649!4m5!1s0x487474086dd38ad3%3A0xc1516b791422bdbe!2sThe%20Crown%20Inn%2C%20Highcrown%20Street%2C%20Southampton!3m2!1d50.931777499999995!2d-1.4007855!5e0!3m2!1sen!2suk!4v1688158709212!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d10057.140837108504!2d-1.412214309100899!3d50.936938297025456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x48747474cd9a7af5%3A0xa8cb078dd4e299bd!2sChamberlain%20Halls%2C%20Glen%20Eyre%20Road%2C%20Southampton!3m2!1d50.941985599999995!2d-1.4028649!4m5!1s0x4874740808456623%3A0x830a27fc269c0f2c!2sBrewhouse%20%26%20Kitchen%20-%20Southampton%2C%20Highfield%20Lane%2C%20Southampton!3m2!1d50.9311533!2d-1.399718!5e0!3m2!1sen!2suk!4v1688158732844!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+## Additional information
+
+Highfield Campus is adjacent to [Southampton Common](https://www.southampton.gov.uk/people-places/parks-open-spaces/parks/southampton-common/), 365 acres of parkland ideal for walking or the traditional mODa football game.
+
+[Avenue Campus](https://www.southampton.ac.uk/student-life/campuses/avenue) (a 15 minute walk from Building 100) has tennis courts that will probably not be too busy out of term.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5029.015024084705!2d-1.405972347935701!3d50.932826686753195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x487473a091c0b785%3A0x9e42f51821c02d8a!2sCentenary%20Building%20(100)%2C%20University%20Road%2C%20Southampton!3m2!1d50.9367904!2d-1.3976205!4m5!1s0x487474064491597b%3A0x7a832ae220279363!2sAvenue%20Campus%2C%20Highfield%20Rd%2C%20Southampton%20SO17%201BF!3m2!1d50.9287637!2d-1.4024470999999998!5e0!3m2!1sen!2suk!4v1688159046588!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
