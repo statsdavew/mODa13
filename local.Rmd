@@ -46,7 +46,7 @@ knitr::include_graphics(c("images/B100.png"))
 
 ## Breakfast, lunch and dinner
 
-Please bring your conference badge to all meals.
+Please bring your workshop badge to all meals.
 
 **Breakfast** will be in the [Piazza](https://catering.southampton.ac.uk/42-piazza) (Building 42, Students Union) between 07.30 and 08.30 each day (for residents only).
 
