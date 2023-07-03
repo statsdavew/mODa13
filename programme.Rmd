@@ -27,6 +27,7 @@ prelim_data <- read_csv("../timetable/prelim_schedule.csv", show_col_types = FAL
 prelim_data |> 
   mutate(Session = case_when(
     Session ==  "BBQ (18.00 - 20.00; Chamberlain Hall)" ~ "BBQ (18.00 - 20.00; Chamberlain Hall)",
+    Session == "mODa 14" ~ "mODa 14",
     .default = str_to_title(Session)
     )) |>
   pivot_wider(names_from = Day, values_from = Session) |>
