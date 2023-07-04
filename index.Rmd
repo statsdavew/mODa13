@@ -28,5 +28,5 @@ mODa is (generally) organized every three years, with the previous mODa12 held i
 **Supported by:**
 
 ```{r, echo = FALSE, out.width = "40%",fig.show = 'hold', fig.align = 'center', fig.cap = ""}
-knitr::include_graphics(c("images/ICMS.png", "images/soton_logo.jpeg", "images/jmp.png", "images/janssen.png"))
+knitr::include_graphics(c("images/ICMS.png", "images/soton_logo.jpeg", "images/jmp.png", "images/janssen.png", "images/cup.png"))
 ``` 
