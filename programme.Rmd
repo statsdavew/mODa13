@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 An outline schedule for the workshop is given below. **A full programme is available [here](static/programme.html)**.
 
-The workshop will start with registration and a welcome reception/bbq on **Sunday evening (9 July; 18.00 - 20.00 in the common room/quad (B block) in Chamberlain Hall)**.
+The workshop will start with registration and a welcome reception/bbq on **Sunday evening (9 July; 18.00 - 20.00 on the main quad at Glen Eyre Hall, directly across the road from Chamberlain)**.
 
 **Talks** all have 22.5 minute slots, and should be prepared to leave a little time for questions.
 
