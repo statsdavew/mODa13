@@ -8,10 +8,11 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-A collection of presentations from the workshop will appear in the mODa proceedings, a special issue of [Statistical Papers](https://www.springer.com/journal/362) edited by [Dave Woods](https://statsdavew.github.io), [Stefanie Biedermann](https://www.open.ac.uk/people/sb42774) and [Chiara Tommasi](https://www.unimi.it/en/ugov/person/chiara-tommasi). 
+A collection of presentations from the workshop has appeared in the [mODa proceedings](https://link.springer.com/journal/362/volumes-and-issues/64-4), a special issue of [Statistical Papers](https://www.springer.com/journal/362) edited by [Dave Woods](https://statsdavew.github.io), [Stefanie Biedermann](https://www.open.ac.uk/people/sb42774) and [Chiara Tommasi](https://www.unimi.it/en/ugov/person/chiara-tommasi). 
 
+<!--
 Currently, most papers can be found in the [online first](https://link.springer.com/journal/362/online-first) list on the journal website.
-
+-->
 <!--
 Workshop participants are encouraged to submit research based on their presentations for publication in the mODa proceedings, a special issue of [Statistical Papers](https://www.springer.com/journal/362). When submitting to the journal, please select article type as "S.I. : MODA13". The special issue is edited by [Dave Woods](https://statsdavew.github.io), [Stefanie Biedermann](https://www.open.ac.uk/people/sb42774) and [Chiara Tommasi](https://www.unimi.it/en/ugov/person/chiara-tommasi). 
 -->

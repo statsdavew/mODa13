@@ -18,6 +18,11 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("images/moda13.png")
 ```
 
+mODa13 was held in Southampton from 9-14 July 2023. The [published proceedings](https://link.springer.com/journal/362/volumes-and-issues/64-4) contains papers related to 17 of the presentations at the workshop. The 14th mODa workshop will be held in Belgium in 2026.
+
+```{r, echo = FALSE, fig.align= "center", fig.cap = ""}
+knitr::include_graphics(c("images/group.jpg"))
+```
 
 The scientific workshops on model-oriented data analysis and optimum design (mODa) provide a high-level international forum for researchers, professionals and practitioners to present and discuss recent advances, new techniques and applications in the field of optimum experimental design. In addition, a primary aim is to provide young researchers an opportunity to establish personal contacts with leading specialists in the field. Its specificity is that the participation is by invitation of the board only. 
 
